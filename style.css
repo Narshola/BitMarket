@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+.button:hover {
+    background-color: turquoise;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.psevdo {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.psevdo::before {
+    display: inline-block;
+    content: '';
+    background: url("https://cdn131.picsart.com/309488274132211.png");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.psevdo::after {
+    display: inline-block;
+    content: '';
+    background: url("https://cdn131.picsart.com/309488274132211.png");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.post:hover {
+    background-color: #850AE5;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.article-but:hover {
+    background-color: white;
+    color: #36bbce;
+    border: 5px solid #36bbce;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+.social:hover {
+    border-bottom: 10px double #133aac;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.links {
+    position: fixed;
+    top:230px;
+    right: 0px;
+    width: 100px;
+    height: 200px;
+    background-color: #850AE5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.heart {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    width: 70px;
+    height: 70px;
+}
+
+.tel::before {
+    margin-right: 10px;
+    display: inline-block;
+    content: '';
+    background: url("http://cdn.onlinewebfonts.com/svg/img_178857.png");
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.address::before {
+    margin-right: 10px;
+    display: inline-block;
+    content: '';
+    background: url("https://w7.pngwing.com/pngs/561/406/png-transparent-house-acon-angle-text-rectangle.png");
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
